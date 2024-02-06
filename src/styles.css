@@ -7,15 +7,15 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-  }
-  
-  .header {
+}
+
+.header {
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px; /* Add margin to separate the header from the .form-border */
-  }
-  
-  .form-border {
+}
+
+.form-border {
     display: flex;
     flex-direction: column;
     height: 40vw; /* Set the height as a percentage of viewport width */
@@ -25,43 +25,70 @@
     background-color: #CAD593; /* Set background color for FormBorder */
     border: 1px solid black;
     margin: auto; /* Center the .form-border within the wrapper */
-  }
-  
-  .input {
+}
+
+.input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 220px; /* Adjust the margin as needed for small screens */
+    margin-bottom: 50vh; /* Adjust the margin as needed for small screens */
+}
 
-  }
-
-  .input input {
+.input .email {
     width: 100%;
-  }
-  
-  .button {
+    padding: 10px;
+    margin-top: 50vh;
+    background-color: #A9D2D5;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.input .password {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #A9D2D5;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.button {
     display: flex;
     align-items: center;
-    margin-top: 20px; /* Adjust the margin as needed */
-  }
-  
-  /* Media query for small screens */
-  @media (max-width: 600px) {
+    margin-bottom: 50vh; /* Adjust the margin as needed */
+    padding: 10px; 
+    width: 100%;
+    text-align: center;
+    background-color: #A9D2D5;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* Make image responsive */
+img {
+    max-width: 100%; /* Ensure image scales down on smaller screens */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
     .header {
-      font-size: 18px; /* Adjust font size for small screens */
+        font-size: 18px; /* Adjust font size for small screens */
     }
-  
+
     .form-border {
-      height: 60vw; /* Adjust height for small screens */
-      width: 80vw; /* Adjust width for small screens */
+        height: 60vw; /* Adjust height for small screens */
+        width: 80vw; /* Adjust width for small screens */
     }
-  
+
     .input {
-      margin-bottom: 20px; /* Adjust margin for small screens */
+        margin-bottom: 20px; /* Adjust margin for small screens */
     }
-  
+
     .button {
-      margin-top: 10px; /* Adjust margin for small screens */
+        margin-top: 10px; /* Adjust margin for small screens */
     }
-  }
-  
+}

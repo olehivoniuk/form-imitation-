@@ -4,8 +4,8 @@ import '../styles.css';
 const Input = () => {
   return (
     <div className ="input ">
-      <input type="email" placeholder="Input email" />
-      <input type="password" placeholder="Input password" />
+      <input type="email" placeholder="Input email" className='email'/>
+      <input type="password" placeholder="Input password" className='password' />
     </div>
   )
 }
