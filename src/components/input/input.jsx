@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles.css';
+import './input_styles.css'
 
 const Input = () => {
   return (

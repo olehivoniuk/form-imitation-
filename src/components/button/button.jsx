@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles.css';
+import './button_styles.css'
 
 
 const Button = () => {

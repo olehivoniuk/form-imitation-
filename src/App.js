@@ -1,11 +1,10 @@
-import './App.css';
-import './styles.css'
-import Wrapper from './components/Wrapper';
+import UltimateWrapper from './components/ultimateWrapper/untimateWrapper';
+
 
 function App() {
   return (
     <div className="App">
-      <Wrapper />
+      <UltimateWrapper />
     </div>
   );
 }
