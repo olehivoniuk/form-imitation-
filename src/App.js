@@ -1,4 +1,4 @@
-import UltimateWrapper from './components/ultimateWrapper/untimateWrapper';
+import UltimateWrapper from './components/ultimateWrapper/ultimateWrapper';
 
 
 function App() {
